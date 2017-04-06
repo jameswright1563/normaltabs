@@ -21,8 +21,14 @@ A global user stylesheet requires global content permissions, so it's a good sec
 
 It's a static stylesheet, so there's no configuration, and hopefully also no impact on performance.
 
+## Installation
+
+Install the extension from [Chrome Web Store][web-store] or load it [unpacked][load-unpacked].
+
 ## License
 
 MIT
 
+[web-store]: https://chrome.google.com/webstore/detail/normal-tab-size/kjjblpbmpgkbfnonlanolpcmlolafamn
 [tab-size]: https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size
+[load-unpacked]: https://developer.chrome.com/extensions/getstarted#unpacked
