@@ -1,8 +1,8 @@
 {
   "name": "Normal Tab Size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
-  "description": "Set the default tab-size CSS property to 2 in every page",
+  "description": "Set the default tab-size CSS property to 2 in every page (especially in GitHub)",
   "homepage_url": "https://github.com/slikts/normaltabs",
   "icons": {
     "16": "icons/icon16.png",
@@ -17,6 +17,15 @@
       "all_frames": true,
       "css": [
         "src/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.github.com/*"
+      ],
+      "all_frames": true,
+      "css": [
+        "src/github.css"
       ]
     }
   ]
